@@ -12,11 +12,13 @@ function setTimeoutFor(callback, timeout, times) {
       return;
     }
 
-    setTimeout(customCallback, timeout);
+    timeoutCallback = setTimeout(customCallback, timeout);
   }, timeout);
 
   return {
-    timeout: timeoutCallback,
+    getTimeout: function() {
+      return timeoutCallback;
+    },
     clear: function() {
       clearTimeout(timeoutCallback);
     },
