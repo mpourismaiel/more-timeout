@@ -1,0 +1,25 @@
+{
+  "name": "more-timeout",
+  "version": "0.0.1",
+  "description": "Get more out of setTimeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpourismaiel/more-timeout.git"
+  },
+  "keywords": [
+    "timeout"
+  ],
+  "author": "Mahdi Pourismaiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpourismaiel/more-timeout/issues"
+  },
+  "homepage": "https://github.com/mpourismaiel/more-timeout#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
